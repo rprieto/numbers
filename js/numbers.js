@@ -37,7 +37,7 @@ var cardinal = (function() {
 			return reverseMagnitudes.filter(biggerThan)[0];
 		}	
 
-		return (number in words) ? words[number] : extractHeadAndRecurse(number);
+		return (number in words) ? words[number] : extractHeadAndRecurse();
 				
 	}
 	
